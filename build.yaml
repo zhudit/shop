@@ -17,4 +17,10 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
----
+include:
+  - board: nrf52840_m2
+    shield: caldera_left
+  - board: nrf52840_m2
+    shield: caldera_right
+  - board: nrf52840_m2
+    shield: settings_reset
